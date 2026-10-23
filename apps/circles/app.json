@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "AskOnce Circles",
+    "slug": "askonce-circles",
+    "version": "1.0.0",
+    "scheme": "askoncecircles",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.saisatvik.askoncecircles",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.saisatvik.askoncecircles",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#3B4CCA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "appId": "circles",
+      "apiUrl": "https://YOUR-BACKEND.onrender.com",
+      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/circles.html",
+      "supportEmail": "YOUR-SUPPORT-EMAIL"
+    }
+  }
+}
