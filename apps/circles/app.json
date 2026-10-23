@@ -42,9 +42,9 @@
     },
     "extra": {
       "appId": "circles",
-      "apiUrl": "https://YOUR-BACKEND.onrender.com",
-      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/circles.html",
-      "supportEmail": "YOUR-SUPPORT-EMAIL"
+      "apiUrl": "https://idea-apps-api.onrender.com",
+      "privacyUrl": "https://VSaiSatvik.github.io/idea-apps/privacy/circles.html",
+      "supportEmail": "saisatvik.apps@gmail.com"
     }
   }
 }

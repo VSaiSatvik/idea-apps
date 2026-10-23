@@ -50,9 +50,9 @@
     },
     "extra": {
       "appId": "familyshield",
-      "apiUrl": "https://YOUR-BACKEND.onrender.com",
-      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/familyshield.html",
-      "supportEmail": "YOUR-SUPPORT-EMAIL"
+      "apiUrl": "https://idea-apps-api.onrender.com",
+      "privacyUrl": "https://VSaiSatvik.github.io/idea-apps/privacy/familyshield.html",
+      "supportEmail": "saisatvik.apps@gmail.com"
     },
     "description": "Pauses an elderly parent at the risky moment of a phone scam and brings their family in."
   }

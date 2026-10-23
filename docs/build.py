@@ -1,7 +1,7 @@
 """Builds the privacy + support pages for GitHub Pages. Edit DEVELOPER/EMAIL, then run: python3 docs/build.py"""
 import html, pathlib
 DEVELOPER = "Sai Satvik"            # the name shown on your store listings
-EMAIL = "YOUR-SUPPORT-EMAIL"        # a support inbox you check (it is published)
+EMAIL = "saisatvik.apps@gmail.com"        # a support inbox you check (it is published)
 UPDATED = "22 October 2026"
 HOST = "Render (our server provider)"
 COMMON_ACCOUNT = "Your name, email address and a scrambled (hashed) version of your password, so you can sign in."
