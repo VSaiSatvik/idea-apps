@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "SideDesk",
+    "slug": "sidedesk",
+    "version": "1.0.0",
+    "scheme": "sidedesk",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.saisatvik.sidedesk",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.saisatvik.sidedesk",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#6D28D9",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "appId": "sidedesk",
+      "apiUrl": "https://YOUR-BACKEND.onrender.com",
+      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/sidedesk.html",
+      "supportEmail": "YOUR-SUPPORT-EMAIL"
+    }
+  }
+}

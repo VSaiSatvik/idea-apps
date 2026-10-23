@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- See which app comes to the foreground, only while/just after an unknown call (Usage access, user-granted in Settings) -->
+  <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions" />
+  <!-- Show the pause screen over the scammer's instructions ("Display over other apps", user-granted) -->
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+  <application>
+    <!-- Reads only: ongoing-call notifications (phone + WhatsApp), delivery-app updates, SMS arrival. Nothing is uploaded. -->
+    <service
+      android:name="expo.modules.shieldnative.ShieldListenerService"
+      android:label="Family Shield"
+      android:exported="true"
+      android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+      <intent-filter>
+        <action android:name="android.service.notification.NotificationListenerService" />
+      </intent-filter>
+    </service>
+  </application>
+</manifest>

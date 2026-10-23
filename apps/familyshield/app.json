@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Family Shield",
+    "slug": "family-shield",
+    "version": "1.0.0",
+    "scheme": "familyshield",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.saisatvik.familyshield",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.saisatvik.familyshield",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#B3261E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "color": "#B3261E"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "appId": "familyshield",
+      "apiUrl": "https://YOUR-BACKEND.onrender.com",
+      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/familyshield.html",
+      "supportEmail": "YOUR-SUPPORT-EMAIL"
+    },
+    "description": "Pauses an elderly parent at the risky moment of a phone scam and brings their family in."
+  }
+}

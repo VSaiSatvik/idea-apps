@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Wasl",
+    "slug": "wasl-invoices",
+    "version": "1.0.0",
+    "scheme": "wasl",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.saisatvik.wasl",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.saisatvik.wasl",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0F6B4F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser",
+      "expo-document-picker"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "appId": "wasl",
+      "apiUrl": "https://YOUR-BACKEND.onrender.com",
+      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/wasl.html",
+      "supportEmail": "YOUR-SUPPORT-EMAIL"
+    }
+  }
+}

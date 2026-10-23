@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Vouch Crawls",
+    "slug": "vouch-crawls",
+    "version": "1.0.0",
+    "scheme": "vouchcrawls",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.saisatvik.vouchcrawls",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.saisatvik.vouchcrawls",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#C2410C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Vouch Crawls uses your location once, while you register your venue, to place it on the crawl map."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "appId": "vouch",
+      "apiUrl": "https://YOUR-BACKEND.onrender.com",
+      "privacyUrl": "https://YOUR-GITHUB-USERNAME.github.io/idea-apps/privacy/vouch.html",
+      "supportEmail": "YOUR-SUPPORT-EMAIL"
+    }
+  }
+}
