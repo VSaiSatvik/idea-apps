@@ -1,10 +1,10 @@
-# Render Blueprint: New > Blueprint > pick this repo. Fill the "sync: false" values in the Render dashboard.
 services:
   - type: web
     name: idea-apps-api
     runtime: docker
     rootDir: backend
-    plan: starter            # a paid plan is needed for the persistent disk below
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     healthCheckPath: /health
     disk:
       name: data
@@ -13,13 +13,13 @@ services:
     envVars:
       - key: DATA_DIR
         value: /data
-      - key: PUBLIC_URL        # this service's own https URL, used in Wasl confirmation links
+      - key: PUBLIC_URL
         sync: false
-      - key: ADMIN_EMAILS      # comma-separated emails that get admin screens (Vouch, SideDesk)
+      - key: ADMIN_EMAILS
         sync: false
-      - key: DEMO_PASSWORD     # password for the reviewer demo accounts
+      - key: DEMO_PASSWORD
         sync: false
-      - key: DEMO_ANTHROPIC_KEY  # optional: lets Circles' "try without a key" demo give real answers
+      - key: DEMO_ANTHROPIC_KEY
         sync: false
-      - key: EXPO_ACCESS_TOKEN   # optional: Family Shield push notifications
+      - key: EXPO_ACCESS_TOKEN
         sync: false
