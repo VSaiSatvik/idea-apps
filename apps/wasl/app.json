@@ -45,7 +45,16 @@
       "appId": "wasl",
       "apiUrl": "https://idea-apps-api.onrender.com",
       "privacyUrl": "https://VSaiSatvik.github.io/idea-apps/privacy/wasl.html",
-      "supportEmail": "saisatvik.apps@gmail.com"
-    }
+      "supportEmail": "saisatvik.apps@gmail.com",
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "7b03b516-3f5b-4a75-87ee-54b421fad811"
+      }
+    },
+    "owner": "saisatvik1805"
   }
 }
