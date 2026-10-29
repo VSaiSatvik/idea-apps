@@ -44,7 +44,16 @@
       "appId": "circles",
       "apiUrl": "https://idea-apps-api.onrender.com",
       "privacyUrl": "https://VSaiSatvik.github.io/idea-apps/privacy/circles.html",
-      "supportEmail": "saisatvik.apps@gmail.com"
-    }
+      "supportEmail": "saisatvik.apps@gmail.com",
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "30bd73e7-5d41-4702-8dee-0f1e102a97e4"
+      }
+    },
+    "owner": "saisatvik1805"
   }
 }

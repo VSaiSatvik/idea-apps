@@ -7,3 +7,4 @@ dist/
 *.p12
 *.mobileprovision
 .env
+.DS_Store

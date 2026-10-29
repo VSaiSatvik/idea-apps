@@ -44,7 +44,16 @@
       "appId": "sidedesk",
       "apiUrl": "https://idea-apps-api.onrender.com",
       "privacyUrl": "https://VSaiSatvik.github.io/idea-apps/privacy/sidedesk.html",
-      "supportEmail": "saisatvik.apps@gmail.com"
-    }
+      "supportEmail": "saisatvik.apps@gmail.com",
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "3fdb10f7-1c5d-4483-903d-2c9f9b67bd2d"
+      }
+    },
+    "owner": "saisatvik1805"
   }
 }

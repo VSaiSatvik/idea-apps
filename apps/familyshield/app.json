@@ -52,8 +52,17 @@
       "appId": "familyshield",
       "apiUrl": "https://idea-apps-api.onrender.com",
       "privacyUrl": "https://VSaiSatvik.github.io/idea-apps/privacy/familyshield.html",
-      "supportEmail": "saisatvik.apps@gmail.com"
+      "supportEmail": "saisatvik.apps@gmail.com",
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "eb776ec0-9305-4258-ad08-a82da192143c"
+      }
     },
-    "description": "Pauses an elderly parent at the risky moment of a phone scam and brings their family in."
+    "description": "Pauses an elderly parent at the risky moment of a phone scam and brings their family in.",
+    "owner": "saisatvik1805"
   }
 }
